@@ -1,0 +1,109 @@
+#appContainer {
+    justify-content: center;
+    text-align: center;
+}
+
+#gral {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#vistaMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    background: linear-gradient(90deg, rgb(200, 187, 164) 0%, rgb(227, 184, 231) 100%);
+}
+
+#detalleModal {
+    border-style: hidden;
+    width: 28rem;
+    background: white;
+    background: linear-gradient(90deg, rgb(200, 187, 164) 0%, rgb(227, 184, 231) 100%);
+}
+
+.card {
+    border-style: solid;
+    border-color: rgb(184, 231, 217);
+    width: 18rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(199, 164, 174);
+    background: linear-gradient(90deg, rgba(199, 164, 174, 1) 0%, rgba(184, 231, 217, 1) 100%);
+}
+
+#vistaPedidos {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+
+#sec-pedidos {
+    margin-top: 3%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#tuPedido {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#cardPedidos {
+    width: 8rem;
+}
+
+#pedidos {
+    size: 10px;
+}
+
+#searchBar {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+input.search {
+    background-color: rgb(199, 164, 174);
+}
+
+.btn {
+    margin: 13px 12px 12px 10px;
+}
+
+#borrar {
+    margin-bottom: 0px;
+    float: right;
+}
+
+#okPedido {
+    margin-bottom: 0px;
+    float: right;
+}
+
+#generalBack {
+    background-image: url(../img/food.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.fas {
+    float: right;
+}
+
+#agregado {
+    margin-top: 1%;
+}
+
+#borrado {
+    margin-top: 1%;
+}
+
+.img{
+    height:200px;
+    width: auto;
+}

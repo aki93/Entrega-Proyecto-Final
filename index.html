@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+    <title>QueComemosApp</title>
+</head>
+<nav  class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">QueComemosApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<body id="generalBack">
+
+    <div id="gral" class="container">
+        <div id="detalleFactura" style="display: none"></div>
+
+
+        <div id="appContainer" class="container">
+            <div id="pedidosContainer" class="flex-container"></div>
+            <div id="agregado" style="display: none">
+
+            </div>
+            <div id="borrado" style="display: none">
+
+            </div>
+            <div class="modal fade" id="pedidoOk" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Su pedido es:</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body pedido">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <h5 id="totalPedido"></h5>
+                            <button id="finPedido" type="button" class="btn btn-primary">Pagar</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="sec-pedidos">
+            </div>
+
+            <div id="searchBar" class="input-group">
+                <form id="buscador" class="form-inline my-2 my-lg-0">
+                    <input id="inputBuscador" class="form-control  mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <input class="btn btn-primary my-2 my-sm-0" type="submit" value="Buscar">
+                </form>
+            </div>
+
+
+
+            <button id="btn-may" type="button" class="btn btn-success ">Mayor Precio</button>
+            <button id="btn-men" type="button" class="btn btn-primary">Menor Precio</button>
+
+            <div id="vistaMenu" class="container">
+
+            </div>
+
+            <div class="modal fade" id="detalle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title nombreDet" id="exampleModalLabel">Detalle</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                        </div>
+                        <div class="modal-body detalle">
+                            detalle
+                        </div>
+                        <div class="modal-footer">
+
+                            <h5 id="precioDet"></h5>
+                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+
+</html>

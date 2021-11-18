@@ -1,0 +1,119 @@
+[{
+        "nombreComida": "Bife de Ternera al horno",
+        "precioComida": 310,
+        "tipoComida": "Carnes",
+        "detalleComida": "Carne de ternera cocinada al horno,acompañada con tomates cherry y lechuga",
+        "cantidad": 0,
+        "img": "img/BifeTernera.jpeg",
+        "id": 1
+    },
+    {
+        "nombreComida": "Matahambre a la pizza",
+        "precioComida": 520,
+        "tipoComida": "Carnes",
+        "detalleComida": "Matahambre de cerdo con muzzarela,porcion para compartir",
+        "cantidad": 0,
+        "img": "img/Matahambre.jpeg",
+        "id": 2
+    },
+    {
+        "nombreComida": "Falafel",
+        "precioComida": 320,
+        "tipoComida": "Vegetariano",
+        "detalleComida": "Croqueta de garbanzos o habas acompañado con salsa de yogurt o humus a eleccion",
+        "cantidad": 0,
+        "img": "img/Falafel.jpeg",
+        "id": 3
+    },
+    {
+        "nombreComida": "Milanesa a Caballo",
+        "precioComida": 260,
+        "tipoComida": "Carnes",
+        "detalleComida": "Lo mejor y mas rapido para salir del paso, al galope",
+        "cantidad": 0,
+        "img": "img/Milanesa.jpeg",
+        "id": 4
+    },
+    {
+        "nombreComida": "Papas solas",
+        "precioComida": 100,
+        "tipoComida": "Vegetariano",
+        "detalleComida": "Porcion abundante de papas fritas",
+        "cantidad": 0,
+        "img": "img/PapasSolas.jpeg",
+        "id": 5
+    },
+    {
+        "nombreComida": "Pollo al horno",
+        "precioComida": 400,
+        "tipoComida": "General",
+        "detalleComida": "Pollo cocinado al horno, acompañado de papas cocinadas o ensalada de tomate lechuga y zanahoria",
+        "cantidad": 0,
+        "img": "img/PolloHorno.jpeg",
+        "id": 6
+    },
+    {
+        "nombreComida": "Ensalada Caesar",
+        "precioComida": 220,
+        "tipoComida": "Vegetariano",
+        "detalleComida": "Ensalada de lechuga y croutons con jugo de limon , aceite de oliva, huevo, salsa Worcestershire, anchoas, ajo, mostaza de Dijon, queso parmesano y pimienta negra",
+        "cantidad": 0,
+        "img": "img/EnsaladaCaesar.jpeg",
+        "id": 7
+    },
+    {
+        "nombreComida": "Ensalada de atun",
+        "precioComida": 300,
+        "tipoComida": "General",
+        "detalleComida": "Ensalada de atun con fideos,choclo y tomate, ideal para almorzar en dias de calor",
+        "cantidad": 0,
+        "img": "img/EnsaladaMixta.jpeg",
+        "id": 8
+    },
+    {
+        "nombreComida": "Tortilla de Papa",
+        "precioComida": 330,
+        "tipoComida": "General",
+        "detalleComida": "Tortilla de papa con cebolla y ajo",
+        "cantidad": 0,
+        "img": "img/TortillaPapa.jpeg",
+        "id": 9
+    },
+    {
+        "nombreComida": "Fillet de Merluza",
+        "precioComida": 350,
+        "tipoComida": "General",
+        "detalleComida": "Fillet de merluza al horno o frito acompañado con tomate",
+        "cantidad": 0,
+        "img": "img/Pescado.jpeg",
+        "id": 10
+    },
+    {
+        "nombreComida": "Gaseosa",
+        "precioComida": 150,
+        "tipoComida": "General",
+        "detalleComida": "Gaseosa linea CocaCola 500ml",
+        "cantidad": 0,
+        "img": "img/coca.jpg",
+        "id": 11
+    },
+    {
+        "nombreComida": "Agua Saborizada",
+        "precioComida": 120,
+        "tipoComida": "General",
+        "detalleComida": "Agua Saborizada linea Levite 500ml",
+        "cantidad": 0,
+        "img": "img/jugo.jpg",
+        "id": 12
+    },
+    {
+        "nombreComida": "Agua Mineral",
+        "precioComida": 110,
+        "tipoComida": "General",
+        "detalleComida": "Agua mineral linea Villavicencio 500ml",
+        "cantidad": 0,
+        "img": "img/agua.jpg",
+        "id": 13
+    }
+
+]
